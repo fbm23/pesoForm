@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="peso.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Indie+Flower&family=Montserrat:wght@100;300&family=Open+Sans:ital,wght@1,300&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <form>
+        <h1>Calculadora de peso ideal usando la fórmula de Paul Broca</h1>
+        <hr>
+        <div class="container">             
+               
+        <label>Altura (centimetros)</label>
+        <input type="number"  step="any" min="1" max="220">
+         <br><br>
+        <label>Edad</label>
+        <select name="edad">
+            <option value="1">1-10</option>
+            <option value="2">11-20</option>
+            <option value="3">21-30</option>
+            <option value="4">31-40</option>
+            <option value="5">41-50</option>
+            <option value="6">51-60</option>
+            <option value="7">61-70</option>
+            <option value="8">71-80</option>
+            <option value="8">81-90</option>
+            <option value="8">91-100</option>
+        </select> 
+       <br><br>
+
+       <label>Elija su Sexo</label><br>
+           
+          <input type="radio" name="gen">
+          <label >Femenino</label><br>
+          <input type="radio" name="gen">
+          <label >Masculino</label><br>
+          
+        <br>
+        <label>Circunferencia de la muñeca de la mano derecha (Centimetros)</label>
+        <input type="number"  min="1" max="30">
+        
+        <br><br>
+        <input type="submit" value="Calcular" >
+        <input type="reset" value="Limpiar"> 
+
+    </div>  
+    </form>
+</body>
+</html>
